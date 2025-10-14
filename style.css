@@ -1,0 +1,97 @@
+/* General Reset */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #2B0000;
+  color: white;
+}
+
+/* Headings */
+h1, h2 {
+  color: #FFD700;
+  text-align: center;
+}
+
+/* Hero Section */
+#hero {
+  background: linear-gradient(to bottom, #2B0000, #4B0000);
+  padding: 60px 20px;
+  text-align: center;
+}
+#hero img {
+  width: 200px;
+  border-radius: 50%;
+  border: 4px solid #FFD700;
+}
+#hero a {
+  background-color: #FFD700;
+  color: black;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+/* Section Styling */
+section {
+  padding: 60px 20px;
+}
+section p {
+  font-size: 18px;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Certifications */
+#certifications div {
+  text-align: center;
+  max-width: 200px;
+}
+#certifications img {
+  width: 100px;
+}
+
+/* Resume Viewer */
+iframe {
+  border: 2px solid #FFD700;
+  border-radius: 10px;
+}
+
+/* Gallery */
+#gallery {
+  overflow-x: auto;
+  display: flex;
+  gap: 20px;
+  scroll-snap-type: x mandatory;
+}
+#gallery img, #gallery video {
+  border: 2px solid #FFD700;
+  border-radius: 10px;
+  min-width: 300px;
+  scroll-snap-align: start;
+}
+
+/* Contact Form */
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+form button {
+  background-color: #FFD700;
+  color: black;
+  padding: 12px 24px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  background-color: #2B0000;
+  padding: 40px 20px;
+  text-align: center;
+  font-size: 14px;
+}
