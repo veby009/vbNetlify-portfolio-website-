@@ -26,8 +26,8 @@ This portfolio integrates Vastu principles, numerology, and astrological resonan
 
 ## 📬 Contact
 For collaborations, leadership roles, or consulting inquiries:
-- 📧 Email: [vishalbhatt.it@gmail.com](mailto:vishalbhatt.it@gmail.com)
-- 🔗 LinkedIn: [linkedin.com/in/vishalbhatt](https://linkedin.com/in/vishalbhatt)
+- 📧 Email: [veby009@gmail.com](mailto:veby009@gmail.com)
+- 🔗 LinkedIn: [linkedin.com/in/vishal-bhatt-b0306718/](https://linkedin.com/in/vishal-bhatt-b0306718/)
 - 🛡️ GitHub: [github.com/veby009](https://github.com/veby009)
 
 ---
