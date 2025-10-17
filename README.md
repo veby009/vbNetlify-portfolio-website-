@@ -14,11 +14,10 @@ Welcome to my personal portfolio repository — a fusion of **technical mastery*
 
 ---
 
-## 🌐 Live Preview
+## 🌐 Live Portfolio Previews
 
-🔗 [Visit My Portfolio Website](https://vishal-bhatt-dsjmy.pyxl.ai)
-
----
+- 🚀 **Netlify**: [vishal-bhatt-portfolio.netlify.app](https://vishal-bhatt-portfolio.netlify.app)  
+- 🌟 **Pyxl**: [vishal-bhatt-dsjmy.pyxl.ai](https://vishal-bhatt-dsjmy.pyxl.ai)---
 
 ## 📁 Project Structure
 
