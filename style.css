@@ -1,97 +1,120 @@
-/* General Reset */
-body {
+/* Global Reset */
+* {
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #2B0000;
-  color: white;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Headings */
-h1, h2 {
+/* Body Styling */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #800000;
   color: #FFD700;
   text-align: center;
+  padding: 40px 20px;
 }
 
-/* Hero Section */
-#hero {
-  background: linear-gradient(to bottom, #2B0000, #4B0000);
-  padding: 60px 20px;
-  text-align: center;
-}
-#hero img {
-  width: 200px;
-  border-radius: 50%;
-  border: 4px solid #FFD700;
-}
-#hero a {
-  background-color: #FFD700;
-  color: black;
-  padding: 12px 24px;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 5px;
-  display: inline-block;
-  margin-top: 20px;
-}
-
-/* Section Styling */
-section {
-  padding: 60px 20px;
-}
-section p {
-  font-size: 18px;
-  max-width: 800px;
-  margin: auto;
-}
-
-/* Certifications */
-#certifications div {
-  text-align: center;
-  max-width: 200px;
-}
-#certifications img {
+.logo {
   width: 100px;
-}
-
-/* Resume Viewer */
-iframe {
-  border: 2px solid #FFD700;
-  border-radius: 10px;
-}
-
-/* Gallery */
-#gallery {
-  overflow-x: auto;
-  display: flex;
-  gap: 20px;
-  scroll-snap-type: x mandatory;
-}
-#gallery img, #gallery video {
-  border: 2px solid #FFD700;
-  border-radius: 10px;
-  min-width: 300px;
-  scroll-snap-align: start;
-}
-
-/* Contact Form */
-form input, form textarea {
-  width: 100%;
-  padding: 10px;
   margin-bottom: 10px;
 }
-form button {
-  background-color: #FFD700;
-  color: black;
-  padding: 12px 24px;
+
+.tagline {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+/* Section Titles */
+section h2 {
+  text-align: center;
+  color: #800000;
+  margin: 40px 0 20px;
+  font-size: 2rem;
+}
+
+/* Video Section */
+#video iframe {
+  display: block;
+  margin: 0 auto;
+  max-width: 90%;
+  border-radius: 8px;
+}
+
+/* About Section */
+#about {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.portrait {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/* Certificates Grid */
+.certificates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px 40px;
+}
+
+.certificates-grid img {
+  width: 100%;
+  border: 2px solid #FFD700;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(128, 0, 0, 0.3);
+}
+
+/* Resume Section */
+#resume {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+#resume a {
+  display: block;
+  margin: 10px 0;
+  color: #800000;
   font-weight: bold;
-  border: none;
-  border-radius: 5px;
+  text-decoration: underline;
+}
+
+/* Spiritual Section */
+#spiritual {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  text-align: center;
+  font-style: italic;
+  color: #444;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #800000;
+  color: #FFD700;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#contact a {
+  color: #FFD700;
+  text-decoration: underline;
 }
 
 /* Footer */
 footer {
-  background-color: #2B0000;
-  padding: 40px 20px;
+  background-color: #333;
+  color: #fff;
   text-align: center;
-  font-size: 14px;
+  padding: 20px;
+  font-size: 0.9rem;
 }
