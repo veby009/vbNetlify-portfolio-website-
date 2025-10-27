@@ -1,29 +1,26 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-color: #fdf8f3;
-  color: #333;
-}
-
-h1, h2 {
-  font-family: 'Playfair Display', serif;
-  color: #800000;
-  margin-bottom: 0.5rem;
+  background-color: #800000; /* Deep Maroon */
+  color: #fdf8f3; /* Light cream text */
 }
 
 .hero {
   padding: 3rem 1rem;
-  background-color: #fffaf5;
+  background-color: #800000; /* Maroon background */
 }
 
-.hero-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-  margin: auto;
-  gap: 2rem;
+.intro h1, .intro h2, .intro p {
+  color: #fdf8f3; /* Light text for contrast */
+}
+
+.buttons a {
+  border: 2px solid #fdf8f3;
+}
+
+.contact {
+  background-color: #800000;
+  color: #fdf8f3;
 }
 
 .portrait img {
