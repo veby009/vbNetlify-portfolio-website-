@@ -5,35 +5,40 @@ body {
   color: #333;
 }
 
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  color: #800000;
+  margin-bottom: 0.5rem;
+}
+
 .hero {
   padding: 3rem 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  background-color: #fffaf5;
 }
 
 .hero-content {
-  max-width: 1200px;
   display: flex;
-  gap: 2rem;
-  align-items: center;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  gap: 2rem;
 }
 
-.text-block {
+.portrait img {
+  width: 250px;
+  border: 4px solid #d4af37;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.intro {
   flex: 1;
   min-width: 300px;
 }
 
-.text-block h1 {
-  font-size: 2.5rem;
-  color: #800000;
-  margin-bottom: 1rem;
-}
-
-.text-block p {
+.intro p {
   font-size: 1.1rem;
   margin-bottom: 1rem;
 }
@@ -57,22 +62,9 @@ body {
   color: #800000;
 }
 
-.image-block img {
-  width: 250px;
-  border: 4px solid #d4af37;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-}
-
 .video-section {
   padding: 2rem 1rem;
   text-align: center;
-}
-
-.video-section h2 {
-  font-size: 2rem;
-  color: #800000;
-  margin-bottom: 1rem;
 }
 
 .video-wrapper iframe {
@@ -81,4 +73,50 @@ body {
   height: 405px;
   border: 4px solid #d4af37;
   border-radius: 10px;
+}
+
+.spiritual-center {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #fff8ec;
+}
+
+.spiritual-center img {
+  width: 100px;
+  margin-bottom: 1rem;
+}
+
+.certifications {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.cert-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.cert-gallery img {
+  width: 200px;
+  border: 2px solid #d4af37;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.cert-gallery img:hover {
+  transform: scale(1.05);
+}
+
+.contact {
+  background-color: #fdf8f3;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.contact a {
+  color: #800000;
+  text-decoration: none;
+  font-weight: bold;
 }
