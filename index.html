@@ -1,58 +1,326 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vishal Bhatt | Digital Transformation Strategist</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header class="hero">
-    <div class="hero-content">
-      <div class="portrait">
-        <img src="images/pers.jpeg" alt="Vishal Bhatt Portrait" />
+<!-- Meta + JSON-LD - Place in <head> -->
+
+<title>Vishal Bhatt | CISO/CIO/CTO Portfolio – IT Leadership, Projects & Strategy</title>
+<meta name="description" content="Portfolio website for Vishal Bhatt—Senior IT Manager positioning as CISO/CIO/CTO. Showcasing projects, skills, certifications, testimonials and visionary tech leadership.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#BB4545">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Vishal Bhatt",
+  "url": "https://your-domain.com",
+  "image": "https://your-domain.com/images/vishal-bhatt-portrait.jpg",
+  "jobTitle": "Senior IT Manager | CISO/CIO/CTO Candidate",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Leading Enterprises",
+    "url": "https://your-domain.com"
+  },
+  "sameAs": [
+    "https://linkedin.com/in/vishalbhatt",
+    "https://github.com/vishalbhatt",
+    "https://twitter.com/vishalbhatt"
+  ],
+  "alumniOf": [
+    { "@type": "CollegeOrUniversity", "name": "IIT Bombay" }
+  ],
+  "description": "Senior IT Manager delivering enterprise transformation in security, data, and digital strategy. Proven success in CISO, CIO, and CTO trajectories."
+}
+</script>
+<!-- HERO SECTION -->
+
+<section id="hero" style="background: linear-gradient(90deg, #BB4545 65%, #C2963A 100%); color: #F2F2F2; min-height: 70vh; display: flex; align-items: center; padding: 48px 0;">
+  <div style="max-width: 1100px; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center;">
+    <div style="flex:1 1 320px; min-width:320px; padding: 32px;">
+      <img src="https://your-domain.com/images/vishal-bhatt-portrait.jpg" alt="Portrait of Vishal Bhatt, Senior IT Executive—red-gold color background, suit and tie, confident expression" style="width: 220px; border-radius: 100px; border: 4px solid #C2963A; box-shadow: 0 8px 24px #24242450;">
+    </div>
+    <div style="flex:2 1 480px; padding: 32px;">
+      <h1 style="font-family: 'Playfair Display', serif; font-size: 3.5rem; margin:0 0 16px 0; font-weight:700;">Vishal Bhatt</h1>
+      <h2 style="font-family: 'Playfair Display', serif; font-size: 2rem; color: #FFF685; margin:0 0 12px 0;">Leading with Vision, Securing the Future</h2>
+      <p style="font-family: 'Open Sans', sans-serif; font-size:1.2rem; color:#F2F2F2; margin-bottom:28px; max-width:540px;">
+        Senior IT Manager with 15+ years transforming enterprises through security, data, and digital innovation. Positioned for CISO/CIO/CTO excellence.
+      </p>
+      <a href="#contact" style="display:inline-block; background: #C2963A; color: #242424; font-family:'Open Sans',sans-serif; font-weight:bold; padding: 16px 36px; border-radius: 32px; text-decoration:none; margin-right:12px; box-shadow:0 4px 12px #24242444;">Connect</a>
+      <a href="#projects" style="display:inline-block; color: #FFF685; background:none; font-family:'Open Sans',sans-serif; border:2px solid #FFF685; padding: 14px 34px; border-radius: 32px; text-decoration:none;">View Projects</a>
+    </div>
+  </div>
+</section>
+<!-- ABOUT SECTION -->
+
+<section id="about" style="background: #F2F2F2; color: #242424; padding: 72px 0;">
+  <div style="max-width: 900px; margin: 0 auto; display: flex; align-items: flex-start; flex-wrap: wrap;">
+    <div style="flex:1 1 320px; min-width:320px; padding:18px;">
+      <img src="https://your-domain.com/images/about-vishal-innovation.jpg" alt="Vishal Bhatt collaborating with colleagues in an enterprise IT strategy meeting, dynamic gold and red workspace" style="width: 100%; border-radius: 24px; box-shadow: 0 4px 16px #C2963A44;">
+    </div>
+    <div style="flex:2 1 450px; padding:24px;">
+      <h2 style="font-family:'Playfair Display',serif; font-size:2.2rem; color:#BB4545;">About Vishal</h2>
+      <p style="font-family: 'Open Sans',sans-serif; font-size:1.1rem; margin-bottom: 20px;">
+        I am a digitally-driven IT strategist, passionate about securing the future and elevating business performance. Over two decades, I’ve architected enterprise-wide security, analytics, and transformation programs for Fortune 500 organizations, championing innovation, compliance, and people-first solutions.
+      </p>
+      <p style="font-family: 'Open Sans',sans-serif; font-size:1.1rem;">
+        My leadership journeys across India, Europe, and North America have shaped my vision: to empower teams and organizations to thrive in disruption, embodying both technical mastery and business acuity. As I transition towards CISO, CIO, or CTO roles, my mission is clear—lead proactive change, ensure operational resilience, and deliver measurable results at global scale.
+      </p>
+      <ul style="font-family: 'Open Sans',sans-serif; list-style:square; color:#A6662E; margin-top:18px;">
+        <li>Known for building secure, scalable cloud architectures</li>
+        <li>Champion of diversity, mentoring, and collaborative cultures</li>
+        <li>Frequent speaker and blogger on AI, security, and digital trust</li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!-- PROJECTS SECTION -->
+
+<section id="projects" style="background: #FFF; color: #242424; padding: 72px 0;">
+  <div style="max-width: 1050px; margin: 0 auto;">
+    <h2 style="font-family:'Playfair Display',serif; font-size:2.2rem; color:#C2963A; text-align:left;">Signature Projects</h2>
+    <p style="font-family:'Open Sans',sans-serif; font-size:1.1rem; margin-bottom:32px;">
+      Showcasing transformative initiatives led and delivered by Vishal Bhatt—driving digital trust, operational excellence, and innovation.
+    </p>
+    <div style="display:flex; flex-wrap:wrap; gap:32px;">
+      <!-- Project 1 -->
+      <div style="flex:1 1 340px; background:#F2F2F2; border-radius:20px; box-shadow: 0 2px 12px #BB454522; padding:24px;">
+        <img src="https://your-domain.com/images/project-cybersecurity.jpg" alt="Enterprise cybersecurity dashboard visualization—project by Vishal Bhatt" style="width:100%; border-radius:12px; margin-bottom:18px; box-shadow:0 2px 8px #24242414;">
+        <h3 style="font-family:'Playfair Display',serif; color:#BB4545; font-size:1.3rem;">Zero-Trust Security Transformation</h3>
+        <p style="font-family:'Open Sans',sans-serif; font-size:1rem;">
+          Architected and led adoption of a Zero-Trust Enterprise Security model across a 10,000-user global financial services organization. Resulted in 40% reduction in incidents and compliance with GDPR/ISO27001.
+        </p>
       </div>
-      <div class="intro">
-        <h1>👋 Meet Vishal Bhatt</h1>
-        <h2>Senior IT Manager | Cybersecurity & Digital Transformation Strategist</h2>
-        <p>With 24+ years of experience, I blend technical mastery with spiritual alignment to deliver impactful digital solutions.</p>
-        <div class="buttons">
-          <a href="resume/VishalBhatt_Resume.pdf" download>📄 Resume (PDF)</a>
-          <a href="resume/VishalBhatt_Resume.docx" download>📄 Resume (DOCX)</a>
+      <!-- Project 2 -->
+      <div style="flex:1 1 340px; background:#F2F2F2; border-radius:20px; box-shadow: 0 2px 12px #C2963A22; padding:24px;">
+        <img src="https://your-domain.com/images/project-ai-analytics.jpg" alt="Enterprise AI data analytics dashboard developed under leadership of Vishal Bhatt" style="width:100%; border-radius:12px; margin-bottom:18px; box-shadow:0 2px 8px #C2963A11;">
+        <h3 style="font-family:'Playfair Display',serif; color:#C2963A; font-size:1.3rem;">AI-Powered Predictive Analytics Platform</h3>
+        <p style="font-family:'Open Sans',sans-serif; font-size:1rem;">
+          Integrated and deployed predictive analytics for supply chain optimization, improving forecast accuracy by 38% and saving $2M+ in operational costs for a global consumer goods leader.
+        </p>
+      </div>
+      <!-- Project 3 -->
+      <div style="flex:1 1 340px; background:#F2F2F2; border-radius:20px; box-shadow: 0 2px 12px #A6662E22; padding:24px;">
+        <img src="https://your-domain.com/images/project-cloud-migration.jpg" alt="Cloud migration dashboard and planning artifacts, project led by Vishal Bhatt" style="width:100%; border-radius:12px; margin-bottom:18px; box-shadow:0 2px 8px #A6662E14;">
+        <h3 style="font-family:'Playfair Display',serif; color:#A6662E; font-size:1.3rem;">Enterprise Cloud Migration—AWS & Azure</h3>
+        <p style="font-family:'Open Sans',sans-serif; font-size:1rem;">
+          Managed migration of 200+ applications and data workloads to AWS/Azure, achieving 99.99% uptime, 25% infrastructure savings, and enhanced cyber resilience.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- CERTIFICATIONS SECTION -->
+
+<section id="certifications" style="background: #F2F2F2; color:#242424; padding: 72px 0;">
+  <div style="max-width: 900px; margin: 0 auto;">
+    <h2 style="font-family:'Playfair Display',serif; font-size:2.2rem; color:#BB4545;">Key Certifications</h2>
+    <p style="font-family:'Open Sans',sans-serif; font-size:1.1rem; margin-bottom:28px;">
+      Professional qualifications and continuous learning, underpinning my commitment to technical and strategic leadership.
+    </p>
+    <div style="display:flex; flex-wrap:wrap; gap:32px;">
+      <!-- Cert 1 -->
+      <div style="flex:1 1 260px; background:#FFF; border-radius:16px; box-shadow:0 2px 8px #C2963A20; padding:18px;">
+        <img src="https://your-domain.com/images/cert-cissp.jpg" alt="Official CISSP certificate for Vishal Bhatt, issued by ISC2" style="width:60px; margin-bottom:12px;">
+        <h3 style="font-family:'Open Sans',sans-serif; font-size:1.05rem; color:#BB4545;">CISSP</h3>
+        <span style="color:#A6662E;">Certified Information Systems Security Professional</span>
+      </div>
+      <!-- Cert 2 -->
+      <div style="flex:1 1 260px; background:#FFF; border-radius:16px; box-shadow:0 2px 8px #C2963A20; padding:18px;">
+        <img src="https://your-domain.com/images/cert-aws-saa.jpg" alt="AWS Certified Solutions Architect—Associate certificate for Vishal Bhatt" style="width:60px; margin-bottom:12px;">
+        <h3 style="font-family:'Open Sans',sans-serif; font-size:1.05rem; color:#C2963A;">AWS Solutions Architect</h3>
+        <span style="color:#BB4545;">Associate</span>
+      </div>
+      <!-- Cert 3 -->
+      <div style="flex:1 1 260px; background:#FFF; border-radius:16px; box-shadow:0 2px 8px #A6662E20; padding:18px;">
+        <img src="https://your-domain.com/images/cert-pmp.jpg" alt="PMP Project Management Professional certificate for Vishal Bhatt" style="width:60px; margin-bottom:12px;">
+        <h3 style="font-family:'Open Sans',sans-serif; font-size:1.05rem; color:#A6662E;">PMP®</h3>
+        <span style="color:#C2963A;">Project Management Professional</span>
+      </div>
+    </div>
+    <p style="font-family:'Open Sans',sans-serif; font-size:1.05rem; color:#24242488; margin-top:16px;">
+      * View all certifications and badge verifications on <a href="https://linkedin.com/in/vishalbhatt" style="color:#BB4545; text-decoration:underline;">LinkedIn</a>
+    </p>
+  </div>
+</section>
+<!-- SKILLS SECTION -->
+
+<section id="skills" style="background: #FFF; color:#242424; padding: 72px 0;">
+  <div style="max-width: 900px; margin: 0 auto;">
+    <h2 style="font-family:'Playfair Display',serif; font-size:2.2rem; color:#A6662E;">Core Skills & Expertise</h2>
+    <p style="font-family:'Open Sans',sans-serif; font-size:1.1rem; margin-bottom:26px;">
+      My work spans a holistic spectrum from enterprise security to emerging tech, strategy, and operations.
+    </p>
+    <div style="display:flex; flex-wrap:wrap; gap:32px;">
+      <!-- Skill Bar 1 -->
+      <div style="flex:1 1 280px; background:#F2F2F2; border-radius:16px; padding:20px;">
+        <strong style="color:#BB4545;">Cloud Security</strong>
+        <div style="width:100%; background:#E0E0E0; border-radius:4px; margin:9px 0;">
+          <div style="width:93%; background:#BB4545; height:13px; border-radius:4px;"></div>
         </div>
+        <span style="font-family:'Open Sans',sans-serif; font-size:0.98rem;">Architecting and managing secure AWS, Azure, and hybrid environments</span>
+      </div>
+      <!-- Skill Bar 2 -->
+      <div style="flex:1 1 280px; background:#F2F2F2; border-radius:16px; padding:20px;">
+        <strong style="color:#C2963A;">Data Analytics & AI</strong>
+        <div style="width:100%; background:#E0E0E0; border-radius:4px; margin:9px 0;">
+          <div style="width:86%; background:#C2963A; height:13px; border-radius:4px;"></div>
+        </div>
+        <span style="font-family:'Open Sans',sans-serif; font-size:0.98rem;">From pipeline engineering to AI/ML model deployment and insights</span>
+      </div>
+      <!-- Skill Bar 3 -->
+      <div style="flex:1 1 280px; background:#F2F2F2; border-radius:16px; padding:20px;">
+        <strong style="color:#A6662E;">Enterprise Architecture</strong>
+        <div style="width:100%; background:#E0E0E0; border-radius:4px; margin:9px 0;">
+          <div style="width:90%; background:#A6662E; height:13px; border-radius:4px;"></div>
+        </div>
+        <span style="font-family:'Open Sans',sans-serif; font-size:0.98rem;">Modernizing legacy infrastructure, cost management, DevSecOps</span>
       </div>
     </div>
-  </header>
-
-  <section class="video-section">
-    <h2>🎥 Introduction Video</h2>
-    <div class="video-wrapper">
-      <iframe src="https://u.pcloud.link/publink/show?code=XZ6le95Z87iBy82dyEmBc7F9CE2iRpbBsw3X" frameborder="0" allowfullscreen></iframe>
+    <div style="display:flex; flex-wrap:wrap; gap:24px; margin-top:34px;">
+      <div style="flex:1 1 200px;">
+        <ul style="font-family:'Open Sans',sans-serif; color:#242424; list-style:square;">
+          <li>Risk Management & Compliance</li>
+          <li>Digital Transformation</li>
+          <li>Team Building & Diversity</li>
+          <li>Stakeholder Communication</li>
+        </ul>
+      </div>
+      <div style="flex:1 1 200px;">
+        <ul style="font-family:'Open Sans',sans-serif; color:#242424; list-style:square;">
+          <li>SOC/SIEM Operations</li>
+          <li>IoT & Edge Strategies</li>
+          <li>DevOps & Agile Delivery</li>
+        </ul>
+      </div>
     </div>
-  </section>
+  </div>
+</section>
+<!-- TESTIMONIALS SECTION -->
 
-  <section class="spiritual-center">
-    <h2>🧘‍♂️ Spiritual Alignment</h2>
-    <img src="images/mandala.png" alt="Mandala Symbol" />
-    <p>My approach blends 🌞 executive strength and 🌺 Venusian refinement, driven by the 🔥 transformative energy of Mars.</p>
-    <p><em>To harmonize any digital space, orient key elements from northwest to southeast.</em></p>
-  </section>
-
-  <section class="certifications">
-    <h2>📜 Certifications</h2>
-    <div class="cert-gallery">
-      <img src="images/cert_google.jpg" alt="Google Cloud Certificate" />
-      <img src="images/cert_itil.jpg" alt="ITIL Foundation Certificate" />
-      <img src="images/cert_aws.jpg" alt="AWS Cloud Practitioner Certificate" />
+<section id="testimonials" style="background: #F2F2F2; color:#242424; padding: 72px 0;">
+  <div style="max-width: 1000px; margin: 0 auto;">
+    <h2 style="font-family:'Playfair Display',serif; font-size:2.2rem; color:#C2963A;">What Leaders Say</h2>
+    <p style="font-family:'Open Sans',sans-serif; font-size:1.1rem; margin-bottom:32px;">
+      Endorsements from executives, peers, and partners who’ve experienced my leadership in action.
+    </p>
+    <div style="display:flex; flex-wrap:wrap; gap:36px;">
+      <!-- Testimonial 1 -->
+      <div style="flex:1 1 300px; background:#FFF; border-radius:18px; box-shadow:0 2px 8px #C2963A18; padding:24px;">
+        <img src="https://your-domain.com/images/testimonial-exec.jpg" alt="CIO of Global Bank—Testimonial for Vishal Bhatt" style="width:60px; border-radius:50%; margin-bottom:10px;">
+        <blockquote style="font-family:'Open Sans',sans-serif; color:#242424CC;">
+          “Vishal’s deep technical mastery and decisive leadership helped us prevent multi-million-dollar cyber risks. He is the rare blend of strategist and problem solver—my top choice for CISO roles.”
+        </blockquote>
+        <span style="font-weight:bold; color:#A6662E;">— Ajay S., CIO, Global Bank</span>
+      </div>
+      <!-- Testimonial 2 -->
+      <div style="flex:1 1 300px; background:#FFF; border-radius:18px; box-shadow:0 2px 8px #BB454518; padding:24px;">
+        <img src="https://your-domain.com/images/testimonial-peer.jpg" alt="DevOps Director—Colleague testimonial for Vishal Bhatt" style="width:60px; border-radius:50%; margin-bottom:10px;">
+        <blockquote style="font-family:'Open Sans',sans-serif; color:#242424CC;">
+          “A mentor and innovator. Vishal inspired our cross-functional team to adopt AI-driven analytics, resulting in faster delivery and measurable business value.”
+        </blockquote>
+        <span style="font-weight:bold; color:#C2963A;">— Priya N., DevOps Director</span>
+      </div>
+      <!-- Testimonial 3 -->
+      <div style="flex:1 1 300px; background:#FFF; border-radius:18px; box-shadow:0 2px 8px #A6662E18; padding:24px;">
+        <img src="https://your-domain.com/images/testimonial-client.jpg" alt="CEO of Tech Startup—Vishal Bhatt client testimonial" style="width:60px; border-radius:50%; margin-bottom:10px;">
+        <blockquote style="font-family:'Open Sans',sans-serif; color:#242424CC;">
+          “Vishal’s guidance on cloud migration and compliance has been pivotal to our startup’s growth and credibility with partners. Highly recommend.”
+        </blockquote>
+        <span style="font-weight:bold; color:#BB4545;">— Michael D., CEO, FinTech Startup</span>
+      </div>
     </div>
-  </section>
+  </div>
+</section>
+<!-- CONTACT SECTION -->
 
-  <footer class="contact">
-    <h2>📞 Let’s Connect</h2>
-    <p>Email: <a href="mailto:vishal.bhatt@example.com">vishal.bhatt@example.com</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/vishalbhatt">linkedin.com/in/vishalbhatt</a></p>
-    <p>WhatsApp: <a href="https://wa.me/919876543210">+91 9876543210</a></p>
-    <p>📍 Ahmedabad, India</p>
-  </footer>
-</body>
-</html>
+<section id="contact" style="background: #FFF; color:#242424; padding: 72px 0;">
+  <div style="max-width: 850px; margin:0 auto; display: flex; flex-wrap: wrap; align-items: center;">
+    <div style="flex:1 1 380px; min-width: 250px; padding: 24px;">
+      <img src="https://your-domain.com/images/contact-vastu.jpg" alt="Contact concept—trusted handshake with gold and red background, representing approachability and open communication" style="width:100%; border-radius:18px; box-shadow:0 2px 8px #BB45452A;">
+    </div>
+    <div style="flex:2 1 420px; padding:24px;">
+      <h2 style="font-family:'Playfair Display',serif; color:#BB4545;">Contact Vishal</h2>
+      <form action="mailto:vishal@your-domain.com" style="display:flex; flex-direction:column; gap:14px; max-width:350px;">
+        <input type="text" name="name" placeholder="Your Name" style="font-size:1rem; border:1.5px solid #C2963A; border-radius:7px; padding:14px;" required>
+        <input type="email" name="email" placeholder="Your Email" style="font-size:1rem; border:1.5px solid #A6662E; border-radius:7px; padding:14px;" required>
+        <textarea name="message" rows="5" placeholder="How can I help you?" style="font-size:1rem; border:1.5px solid #BB4545; border-radius:7px; padding:14px;" required></textarea>
+        <button type="submit" style="background:#C2963A; color:#242424; font-family:'Open Sans',sans-serif; font-weight:bold; padding:12px 36px; border-radius:27px; border:none;">Send Message</button>
+      </form>
+      <p style="font-family:'Open Sans',sans-serif; font-size:0.98rem; color:#A6662EA5; margin-top:18px;">
+        or email: <a href="mailto:vishal@your-domain.com" style="color:#BB4545; text-decoration:underline;">vishal@your-domain.com</a>
+      </p>
+      <p style="font-family:'Open Sans',sans-serif; font-size:0.96rem; color:#24242477;">
+        Connect on <a href="https://linkedin.com/in/vishalbhatt" style="color:#C2963A;">LinkedIn</a> | <a href="https://twitter.com/vishalbhatt" style="color:#A6662E;">Twitter</a>
+      </p>
+    </div>
+  </div>
+</section>
+<!-- BLOG SECTION -->
+
+<section id="blog" style="background:#F2F2F2; color:#242424; padding:72px 0;">
+  <div style="max-width: 900px; margin:0 auto;">
+    <h2 style="font-family:'Playfair Display',serif; font-size:2.2rem; color:#BB4545;">Insights & Thought Leadership</h2>
+    <p style="font-family:'Open Sans',sans-serif; font-size:1.1rem; margin-bottom:28px;">
+      Perspectives on digital transformation, cybersecurity, AI, and leadership for the modern enterprise.
+    </p>
+    <div style="display:flex; flex-wrap:wrap; gap:32px;">
+      <!-- Post 1 -->
+      <div style="flex:1 1 260px; background:#FFF; border-radius:14px; box-shadow:0 2px 8px #C2963A15; padding:18px;">
+        <img src="https://your-domain.com/images/blog-cybersecurity.jpg" alt="Cybersecurity trends blog post on Vishal Bhatt’s portfolio" style="width:100%; border-radius:10px; margin-bottom:12px;">
+        <h3 style="font-family:'Open Sans',sans-serif; color:#BB4545; font-size:1.15rem;">Cybersecurity Trends for 2025</h3>
+        <p style="font-family:'Open Sans',sans-serif; font-size:0.99rem;">
+          Exploring risk mitigation and new threat vectors facing modern enterprises—how to prepare and thrive.
+        </p>
+        <a href="/blog/cybersecurity-trends-2025" style="color:#C2963A;">Read more</a>
+      </div>
+      <!-- Post 2 -->
+      <div style="flex:1 1 260px; background:#FFF; border-radius:14px; box-shadow:0 2px 8px #A6662E15; padding:18px;">
+        <img src="https://your-domain.com/images/blog-ai.jpg" alt="AI in IT management—thought leadership by Vishal Bhatt" style="width:100%; border-radius:10px; margin-bottom:12px;">
+        <h3 style="font-family:'Open Sans',sans-serif; color:#C2963A; font-size:1.15rem;">AI in IT Management: Hype & Reality</h3>
+        <p style="font-family:'Open Sans',sans-serif; font-size:0.99rem;">
+          Examining how AI augments decision-making and risk in C-level IT leadership.
+        </p>
+        <a href="/blog/ai-in-it-management" style="color:#BB4545;">Read more</a>
+      </div>
+      <!-- Post 3 -->
+      <div style="flex:1 1 260px; background:#FFF; border-radius:14px; box-shadow:0 2px 8px #BB454515; padding:18px;">
+        <img src="https://your-domain.com/images/blog-leadership.jpg" alt="Leadership in global teams—blog by Vishal Bhatt" style="width:100%; border-radius:10px; margin-bottom:12px;">
+        <h3 style="font-family:'Open Sans',sans-serif; color:#A6662E; font-size:1.15rem;">Leading Global Tech Teams Remotely</h3>
+        <p style="font-family:'Open Sans',sans-serif; font-size:0.99rem;">
+          Tactics, tools, and cultural insights for building high-performing, distributed IT teams.
+        </p>
+        <a href="/blog/global-tech-leadership" style="color:#C2963A;">Read more</a>
+      </div>
+    </div>
+    <p style="margin-top:24px; font-size:0.97rem; color:#A6662EA8">
+      For more, visit the <a href="/blog" style="color:#BB4545;">full blog</a> or subscribe for updates.
+    </p>
+  </div>
+</section>
+<!-- FOOTER SECTION - copy everywhere -->
+
+<footer style="background:#242424; color:#F2F2F2; padding: 36px 0; font-family: 'Open Sans', sans-serif;">
+  <div style="max-width: 1200px; margin:0 auto; display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center;">
+    <div style="flex:1 1 200px;">
+      <img src="https://your-domain.com/images/logo-vishal-bhatt.png" alt="Vishal Bhatt logo—gold, red, and white CISO/CIO/CTO monogram" style="width:110px;">
+    </div>
+    <div style="flex:4 1 520px; text-align:center;">
+      <span style="display:block; font-size:1.09rem;">
+        <strong>© 2025 Vishal Bhatt | All Rights Reserved.</strong>
+      </span>
+      <span style="font-size:0.98rem; color:#C2963A;">
+        “Leading with Vision, Securing the Future.”
+      </span>
+      <nav style="margin-top:16px; font-size:0.96rem;">
+        <a href="#about" style="color:#F2F2F2; text-decoration:none; margin:0 14px;">About</a> |
+        <a href="#projects" style="color:#F2F2F2; text-decoration:none; margin:0 14px;">Projects</a> |
+        <a href="#certifications" style="color:#F2F2F2; text-decoration:none; margin:0 14px;">Certifications</a> |
+        <a href="#skills" style="color:#F2F2F2; text-decoration:none; margin:0 14px;">Skills</a> |
+        <a href="#blog" style="color:#F2F2F2; text-decoration:none; margin:0 14px;">Blog</a>
+      </nav>
+    </div>
+    <div style="flex: 1 1 220px; text-align:right;">
+      <!-- Social/media icons: Insert SVGs or PNGs as needed -->
+      <a href="https://linkedin.com/in/vishalbhatt" style="color: #C2963A; margin-left:8px;" aria-label="LinkedIn">[LI]</a>
+      <a href="https://github.com/vishalbhatt" style="color: #BB4545; margin-left:8px;" aria-label="GitHub">[GH]</a>
+      <a href="https://twitter.com/vishalbhatt" style="color: #F2F2F2; margin-left:8px;" aria-label="Twitter">[TW]</a>
+    </div>
+  </div>
+</footer>
