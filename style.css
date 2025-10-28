@@ -792,5 +792,46 @@ h2, .h2 {
     display: none!important;
   }
 }
+:root {
+  --primary-bg: #FFFFFF;
+  --primary-text: #800000;
+  --accent-bg: #800000;
+  --accent-text: #FFD700;
+  --footer-bg: #000000;
+  --footer-text: #FFD700;
+  --font-title: 'Playfair Display', serif;
+  --font-body: 'Open Sans', sans-serif;
+}
 
+body {
+  background-color: var(--primary-bg);
+  color: var(--primary-text);
+  font-family: var(--font-body);
+}
+
+h1, h2, h3 {
+  font-family: var(--font-title);
+  color: var(--primary-text);
+}
+
+.section-accent {
+  background-color: var(--accent-bg);
+  color: var(--accent-text);
+}
+
+button.cta {
+  background-color: var(--accent-text);
+  color: var(--accent-bg);
+  border: none;
+  padding: 12px 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+footer {
+  background-color: var(--footer-bg);
+  color: var(--footer-text);
+  text-align: center;
+  padding: 30px;
+}
 /* End of Stylesheet */
