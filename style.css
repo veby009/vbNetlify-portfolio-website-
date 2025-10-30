@@ -1,16 +1,14 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
- header {
-  background-color: #E67300;
-} /* Rose pink */
+  background-color: #FFC0CB; /* Rose pink */
   color: #333333;
   line-height: 1.6;
   scroll-behavior: smooth;
 }
 
 header {
-  background-color: #E67300; /* Deep saffron */
+  background-color: #E67300;
   color: white;
   padding: 20px 40px;
   text-align: center;
@@ -21,11 +19,6 @@ header {
   display: block;
   margin: 0 auto;
   filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.3));
-  .logo {
-  background: radial-gradient(circle, #fff8dc 0%, transparent 70%);
-  border-radius: 50%;
-  padding: 10px;
-}
 }
 
 nav ul {
