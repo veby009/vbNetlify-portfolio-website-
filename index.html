@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Vishal Bhatt | CISO Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-  <header>
-    <img src="assets/1ChatGPT Image Jul 26, 2025, 04_58_53 PM.png" alt="Vishal Bhatt Logo" class="logo" />
-    <h1>Vishal Bhatt</h1>
-    <p>Chief Information Security Officer | Cybersecurity Strategist</p>
-    <nav>
+  <header class="site-header">
+    <div class="logo-wrap">
+      <img src="assets/1ChatGPT Image Jul 26, 2025, 04_58_53 PM.png" alt="Vishal Bhatt Logo" class="logo" />
+    </div>
+    <div class="title-block">
+      <h1 class="name">Vishal Bhatt</h1>
+      <p class="role">Chief Information Security Officer | Cybersecurity Strategist</p>
+    </div>
+    <nav class="main-nav">
       <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#resume">Resume</a></li>
@@ -24,47 +27,68 @@
   </header>
 
   <main>
-    <section id="about">
-      <h2>About Vishal</h2>
-      <p>Senior IT Manager with 24+ years in cybersecurity, cloud migration, and regulatory compliance. Strategist for digital transformation and CISO readiness. Passionate about Vastu-aligned digital branding and recruiter-focused presentation.</p>
-    </section>
-
-    <section id="resume">
-      <h2>Resume</h2>
-      <a href="assets/Vishal-Bhatt-Resume.docx" class="button" download>Download Resume (DOCX)</a>
-    </section>
-
-    <section id="certifications">
-      <h2>Certifications</h2>
-      <div class="cert-grid">
-        <img src="assets/cert1.png" alt="Cybersecurity Certificate" title="Cybersecurity Certificate" />
-        <img src="assets/cert2.png" alt="Cloud Migration Certificate" title="Cloud Migration Certificate" />
-        <img src="assets/cert3.png" alt="Compliance Certificate" title="Compliance Certificate" />
+    <section id="about" class="panel panel--light">
+      <div class="container">
+        <h2>About</h2>
+        <p>Senior IT Manager with 24+ years across cybersecurity, cloud migration, regulatory compliance and digital transformation. Strategic CISO readiness, recruiter-focused presentation, Vastu-aligned branding.</p>
       </div>
     </section>
 
-    <section id="video">
-      <h2>Intro Video</h2>
-      <iframe src="https://pcdn.pcloud.com/embed/video?code=YOUR_PCLOUD_VIDEO_LINK" frameborder="0" allowfullscreen class="video-frame"></iframe>
+    <section id="resume" class="panel panel--soft">
+      <div class="container">
+        <h2>Resume</h2>
+        <a class="cta" href="assets/Vishal-Bhatt-Resume.docx" download>Download Resume (DOCX)</a>
+        <div class="resume-highlights">
+          <ul>
+            <li>24+ years in IT and cybersecurity leadership</li>
+            <li>Large-scale cloud migrations with regulatory alignment</li>
+            <li>Incident response, governance, and strategic roadmaps</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:veby009@gmail.com">veby009@gmail.com</a></p>
-      <p>Phone: <a href="tel:+919428219280">+91-9428219280</a></p>
-      <p>
-        <a href="https://linkedin.com/in/vishalbhatt" target="_blank">LinkedIn</a> |
-        <a href="https://github.com/veby009" target="_blank">GitHub</a>
-      </p>
+    <section id="certifications" class="panel panel--light">
+      <div class="container">
+        <h2>Certifications</h2>
+        <div class="cert-grid">
+          <figure><img src="assets/cert1.png" alt="Certificate 1" /><figcaption>Certificate 1</figcaption></figure>
+          <figure><img src="assets/cert2.png" alt="Certificate 2" /><figcaption>Certificate 2</figcaption></figure>
+          <figure><img src="assets/cert3.png" alt="Certificate 3" /><figcaption>Certificate 3</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="video" class="panel panel--soft">
+      <div class="container">
+        <h2>Intro Video</h2>
+        <div class="video-wrap">
+          <!-- replace YOUR_PCLOUD_CODE with your pCloud embed code value -->
+          <iframe src="https://pcdn.pcloud.com/embed/video?code=YOUR_PCLOUD_CODE" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <p class="video-note">Intro video hosted on pCloud; plays inline, HD quality.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="panel panel--light">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:veby009@gmail.com">veby009@gmail.com</a></p>
+        <p>Phone: <a href="tel:+919428219280">+91-9428219280</a></p>
+        <p><a href="https://linkedin.com/in/vishalbhatt" target="_blank">LinkedIn</a> | <a href="https://github.com/veby009" target="_blank">GitHub</a></p>
+      </div>
     </section>
   </main>
 
-  <footer>
-    <img src="assets/2ChatGPT Image Jul 26, 2025, 04_59_03 PM.png" alt="GPT Logo" class="footer-logo" />
-    <p>© Vishal Bhatt, CISO | Anand, Gujarat, India</p>
-    <p class="spiritual-note">Crafted with Vastu alignment, numerology precision, and spiritual resonance ✨</p>
-    <div class="chakra-overlay"></div>
+  <footer class="site-footer">
+    <div class="footer-left">
+      <img src="assets/2ChatGPT Image Jul 26, 2025, 04_59_03 PM.png" alt="GPT Logo" class="footer-logo" />
+    </div>
+    <div class="footer-center">
+      <p>© Vishal Bhatt, CISO | Anand, Gujarat, India</p>
+      <p class="spiritual">Crafted with Vastu alignment, numerology precision, and spiritual resonance</p>
+    </div>
+    <div class="chakra-bg" aria-hidden="true"></div>
   </footer>
-
 </body>
 </html>
