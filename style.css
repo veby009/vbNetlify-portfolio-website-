@@ -1,7 +1,9 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-color: #FFC0CB; /* Rose pink */
+ header {
+  background-color: #E67300;
+} /* Rose pink */
   color: #333333;
   line-height: 1.6;
   scroll-behavior: smooth;
