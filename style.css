@@ -1,21 +1,24 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-color: #FFFFFF;
+  background-color: #FFC0CB; /* Rose pink */
   color: #333333;
   line-height: 1.6;
+  scroll-behavior: smooth;
 }
 
 header {
-  background-color: #FF9933;
+  background-color: #E67300; /* Deep saffron */
   color: white;
   padding: 20px 40px;
   text-align: center;
 }
 
 .logo {
-  width: 80px;
-  border-radius: 50%;
+  width: 100px;
+  background-color: #FFD700;
+  border-radius: 8px;
+  padding: 5px;
 }
 
 nav ul {
@@ -31,6 +34,36 @@ nav a {
   color: white;
   text-decoration: none;
   font-weight: bold;
+}
+
+main {
+  padding: 40px 20px;
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+.button {
+  background-color: #FFD700;
+  color: #333;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.cert-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cert-grid img {
+  width: 120px;
+  border: 2px solid #E67300;
+  border-radius: 6px;
 }
 
 footer {
