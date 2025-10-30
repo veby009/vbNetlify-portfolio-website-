@@ -1,24 +1,44 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-color: #FFC0CB;
+  background: linear-gradient(to bottom, #4B0082, #FFF5F5);
   color: #333;
   line-height: 1.6;
   scroll-behavior: smooth;
 }
 
 header {
-  background-color: #E67300;
+  background-color: #4B0082;
   color: white;
-  padding: 20px 40px;
+  padding: 30px 20px;
   text-align: center;
 }
 
 .logo {
-  width: 100px;
-  display: block;
-  margin: 0 auto;
-  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.3));
+  width: 120px;
+  border-radius: 50%;
+  animation: pulseGlow 3s infinite;
+  transition: transform 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+@keyframes pulseGlow {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.7);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
+  }
 }
 
 nav ul {
@@ -64,6 +84,21 @@ section {
   width: 120px;
   border: 2px solid #E67300;
   border-radius: 6px;
+  transition: transform 0.3s ease;
+}
+
+.cert-grid img:hover {
+  transform: scale(1.05);
+}
+
+.video-frame {
+  width: 100%;
+  max-width: 600px;
+  height: 340px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(75, 0, 130, 0.3);
 }
 
 footer {
@@ -74,9 +109,9 @@ footer {
   font-size: 14px;
 }
 
-footer a {
-  color: #0A1F44;
-  text-decoration: none;
+.footer-logo {
+  width: 60px;
+  margin-bottom: 10px;
 }
 
 .spiritual-note {
