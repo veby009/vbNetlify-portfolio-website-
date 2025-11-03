@@ -1,0 +1,28 @@
+/* === Netlify Deployment Configuration === */
+project-name: vishal-bhatt-portfolio
+branch-to-deploy: main
+base-directory: 
+build-command: 
+publish-directory: .
+
+/* === Deployment Steps === */
+1. Go to https://app.netlify.com
+2. Click "Add new project" → "Import an existing project"
+3. Choose GitHub → Select your repo: vbNetlify-portfolio-website
+4. Fill out deployment form using values above
+5. Click "Deploy project"
+
+/* === Post-Deployment Checks === */
+site-url: https://vishal-bhatt-portfolio.netlify.app
+seo-files:
+  - https://vishal-bhatt-portfolio.netlify.app/robots.txt
+  - https://vishal-bhatt-portfolio.netlify.app/sitemap.xml
+
+/* === Optional Enhancements === */
+favicon: Add favicon.ico to root and link in <head>
+linkedin-github-footer: Add social links to footer for recruiter engagement
+scroll-to-top: Add button for long-page navigation
+responsive-css: Add media queries to style.css for mobile optimization
+
+/* === SEO Submission === */
+google-search-console: Submit site and sitemap.xml for indexing
