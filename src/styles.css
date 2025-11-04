@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom */
+:root {
+  --maroon: #6B0F0F;
+  --gold: #D4AF37;
+  --gold-2: #B66A24;
+}
+
+body { font-family: 'Playfair Display', serif; background: #fff; }
+
+.container { max-width: 1100px; margin: 0 auto; }
+
+.header-gradient {
+  background: linear-gradient(90deg, var(--maroon) 0%, var(--gold-2) 50%, var(--gold) 100%);
+}
+
+.btn-gold {
+  background: linear-gradient(90deg,var(--gold-2),var(--gold));
+  color: #111;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  font-weight: 700;
+  box-shadow: 0 6px 18px rgba(182,106,36,0.15);
+}
+
+.section-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: var(--maroon);
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(15,23,42,0.06);
+}
