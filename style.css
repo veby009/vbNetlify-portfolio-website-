@@ -37,7 +37,7 @@ img[alt*="Logo"], img[alt*="QR"] {
 }
 
 /* Video Embed Styling */
-iframe {
+video {
   border: 2px solid #e0e0e0;
   border-radius: 12px;
 }
@@ -47,16 +47,21 @@ a {
   transition: color 0.3s ease;
 }
 a:hover {
-  color: #4c51bf; /* Tailwind indigo-700 */
+  color: #4c51bf;
 }
 
-/* Spiritual Accent (Optional) */
+/* Spiritual Accent */
 section::before {
   content: '';
   display: block;
   height: 4px;
   width: 60px;
   margin: 0 auto 16px;
-  background: linear-gradient(to right, #6b46c1, #b794f4); /* Indigo to violet */
+  background: linear-gradient(to right, #6b46c1, #b794f4);
   border-radius: 2px;
+}
+
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
 }
