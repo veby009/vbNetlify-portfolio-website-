@@ -23,7 +23,7 @@ section {
 }
 
 /* Logo & QR Styling */
-img[alt*="Logo"], img[alt*="QR"] {
+img[alt*="Logo"], img[alt*="QR"], img[alt*="Vishal"] {
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
