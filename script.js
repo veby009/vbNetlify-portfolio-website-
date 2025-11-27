@@ -1,37 +1,17 @@
-/* === Vishal Bhatt Portfolio Scripts === */
+lucide.createIcons();
 
-// Smooth scroll for internal anchor links
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener("click", function (e) {
-    e.preventDefault();
-    const target = document.querySelector(this.getAttribute("href"));
-    if (target) {
-      window.scrollTo({
-        top: target.offsetTop - 60,
-        behavior: "smooth"
-      });
-    }
-  });
-});
-
-// Basic contact form validation
-document.addEventListener("DOMContentLoaded", () => {
-  const form = document.getElementById("contact-form");
-  if (!form) return;
-
-  form.addEventListener("submit", (e) => {
-    e.preventDefault();
-    const name = form.name.value.trim();
-    const email = form.email.value.trim();
-    const message = form.message.value.trim();
-
-    if (!name || !email || !message) {
-      alert("Please fill in all fields before sending.");
-      return;
-    }
-
-    // Placeholder action — replace this with your email service or Netlify form endpoint
-    alert(`Thank you, ${name}! Your message has been received.`);
-    form.reset();
-  });
+// certificates gallery
+const certificates = [
+  { src: "assets/certificates/cissp.jpg", title: "CISSP" },
+  { src: "assets/certificates/ethical-hacking.jpg", title: "Ethical Hacking" },
+  { src: "assets/certificates/ai-intro.jpg", title: "Intro to AI" },
+  { src: "assets/certificates/cybercrime.jpg", title: "Intro to Cybercrime" },
+];
+const grid = document.getElementById("cert-grid");
+certificates.forEach(c => {
+  const img = document.createElement("img");
+  img.src = c.src;
+  img.alt = c.title;
+  img.className = "rounded-md border-2 border-amber-500 hover:scale-105 transition";
+  grid.appendChild(img);
 });
