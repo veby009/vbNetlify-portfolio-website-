@@ -1,123 +1,23 @@
-body {
-  font-family: 'Poppins', sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #f4f6f8;
-  color: #1a1a1a;
+:root {
+  --gold: #f59e0b;
+  --dark: #0d121c;
+  --card: #1c2637;
 }
-
-header {
-  background: #800000;
-  color: white;
-  padding: 2rem;
-  text-align: center;
-}
-
-header .portrait {
-  width: 150px;
-  border-radius: 50%;
-  border: 3px solid #FFD700;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+body { font-family: "Inter", sans-serif; }
+.section-title {
+  color: var(--gold);
+  font-size: 1.75rem;
   margin-bottom: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
 }
-
-.resume-button {
-  display: inline-block;
-  margin-top: 1rem;
-  padding: 0.6rem 1.2rem;
-  background: #FF6F00;
-  color: white;
-  font-weight: bold;
-  text-decoration: none;
-  border-radius: 6px;
+.btn-primary {
+  background: var(--gold);
+  color: #111;
+  padding: 10px 24px;
+  border-radius: 9999px;
+  font-weight: 600;
+  transition: all 0.3s;
 }
-
-section {
-  padding: 2rem;
-  border-bottom: 1px solid #ccc;
-}
-
-h2 {
-  color: #FF6F00;
-  margin-bottom: 1rem;
-}
-
-.grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  justify-content: center;
-}
-
-.grid img {
-  width: 300px;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
-
-.text-block {
-  flex: 1;
-  padding-right: 1rem;
-}
-
-.image-block img {
-  width: 100%;
-  max-width: 400px;
-  border-radius: 8px;
-}
-
-.timeline {
-  list-style: none;
-  padding-left: 0;
-}
-
-.timeline li {
-  margin-bottom: 1rem;
-  padding-left: 1rem;
-  border-left: 4px solid #FF6F00;
-}
-
-.skill-block {
-  flex: 1 1 200px;
-  background: white;
-  padding: 1rem;
-  border: 2px solid #FFD700;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-
-.certificate-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  justify-content: center;
-  margin-top: 1rem;
-}
-
-.certificate-card {
-  width: 220px;
-  text-align: center;
-}
-
-.certificate-card img.framed {
-  width: 100%;
-  height: auto;
-  border: 4px solid #FFD700;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-
-.cert-label {
-  margin-top: 0.5rem;
-  font-weight: bold;
-  color: #800000;
-  font-size: 0.95rem;
-}
-
-footer {
-  text-align: center;
-  padding: 1rem;
-  background: #800000;
-  color: white;
-  font-size: 0.9rem;
-}
+.btn-primary:hover { background: #ffcc00; }
+img:hover { transform: scale(1.03); transition: 0.3s ease; }
