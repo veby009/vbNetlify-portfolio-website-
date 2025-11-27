@@ -28,6 +28,24 @@ This repository contains the source code for my professional portfolio hosted on
 
 ### 📁 Folder Structure
 
+portfolio/
+├── index.html # Main responsive homepage
+├── style.css # Tailwind-inspired design overrides (Maroon–Gold theme)
+├── script.js # Certificate gallery and animation logic
+├── sitemap.xml # SEO sitemap
+├── robots.txt # Search engine crawler rules
+├── netlify.toml # Netlify deployment configuration
+├── README.md # (This file)
+│
+├── assets/
+│ ├── photos/ # Profile and portfolio images
+│ ├── certificates/ # Verified achievements
+│ ├── videos/ # Intro / Strategy portfolio video
+│ └── logos/ # Brand icon, favicon, and banners
+│
+└── resume/
+└── Vishal-Bhatt.pdf
+
 ---
 
 ## 🧩 Key Features
