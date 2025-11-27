@@ -1,3 +1,28 @@
+# Vishal Bhatt Portfolio | vbsecure360.netlify.app
+# Optimized for SEO and major search engine crawlers
+
 User-agent: *
 Allow: /
+
+# Block sensitive directories (if any)
+Disallow: /assets/private/
+Disallow: /admin/
+Disallow: /temp/
+
+# Sitemap location
 Sitemap: https://vbsecure360.netlify.app/sitemap.xml
+
+# Additional guidance for major bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+# Crawl delay (optional light throttle)
+Crawl-delay: 5
+
+# Last updated: 2025-11-11
