@@ -1,23 +1,59 @@
-:root {
-  --gold: #f59e0b;
-  --dark: #0d121c;
-  --card: #1c2637;
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #ffffff;
+  color: #333333;
 }
-body { font-family: "Inter", sans-serif; }
-.section-title {
-  color: var(--gold);
-  font-size: 1.75rem;
-  margin-bottom: 1rem;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-.btn-primary {
-  background: var(--gold);
-  color: #111;
-  padding: 10px 24px;
-  border-radius: 9999px;
+
+h1, h2 {
+  letter-spacing: 0.5px;
   font-weight: 600;
-  transition: all 0.3s;
 }
-.btn-primary:hover { background: #ffcc00; }
-img:hover { transform: scale(1.03); transition: 0.3s ease; }
+
+p {
+  font-size: 1.05rem;
+}
+
+section {
+  scroll-margin-top: 80px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+img[alt*="Logo"], img[alt*="QR"], img[alt*="Vishal"] {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#certifications img {
+  transition: transform 0.3s ease;
+}
+#certifications img:hover {
+  transform: scale(1.05);
+}
+
+video {
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+}
+
+a {
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #4c51bf;
+}
+
+section::before {
+  content: '';
+  display: block;
+  height: 4px;
+  width: 60px;
+  margin: 0 auto 16px;
+  background: linear-gradient(to right, #6b46c1, #b794f4);
+  border-radius: 2px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
